@@ -79,3 +79,102 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
+/* Rotate--------------------------- */
+.rotate {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  /* animation-timing-function: linear; */
+}
+
+/* a:hover{
+  animation-name: rotate;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+} */
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Design------------- */
+.increasing {
+  animation-name: increasing;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes increasing {
+25% {
+  transform: scale(0.7, 0.7);
+}
+
+50% {
+  transform: scale(1, 1);
+}
+
+75% {
+  transform: scale(0.7, 0.7);
+}
+
+100% {
+  transform: scale(1, 1);
+}
+}
+
+/* &--------------- */
+.animatie3 {
+  animation-name: animation3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animatie3 {
+ 10% {
+  width: 10rem;
+ }
+
+ 20% {
+  width: 20rem;
+ }
+
+ 30% {
+  width: 30rem;
+ }
+
+ 40% {
+  width: 40rem;
+ }
+
+ 50% {
+  width: 50rem;
+ }
+
+
+ 60% {
+  width: 60rem;
+ }
+
+ 70% {
+  width: 70rem;
+ }
+
+ 80% {
+  width: 80rem;
+ }
+
+ 90% {
+  width: 90rem;
+ }
+
+ 10% {
+  width: 100rem;
+ }
+}
+
