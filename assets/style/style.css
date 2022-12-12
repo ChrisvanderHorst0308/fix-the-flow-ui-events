@@ -129,52 +129,57 @@ a:nth-of-type(12) {
 }
 
 /* &--------------- */
-.animatie3 {
-  animation-name: animation3;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+.button3CssAnimatie {
+  animation-name: button3CssAnimatie;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 
-@keyframes animatie3 {
- 10% {
-  width: 10rem;
- }
+@keyframes button3CssAnimatie {
+20% {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+40% {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+60% {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+80% {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+100% {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+}
 
- 20% {
-  width: 20rem;
- }
+/* developmentbutton */
+.developmenButtonCssAnimation {
+  animation-name: developmentButtonCssAnimation;
+  animation-name: 2s;
+  animation-iteration-count: 1;
+}
 
- 30% {
-  width: 30rem;
- }
-
- 40% {
-  width: 40rem;
- }
-
- 50% {
-  width: 50rem;
- }
-
-
- 60% {
-  width: 60rem;
- }
-
- 70% {
-  width: 70rem;
- }
-
- 80% {
-  width: 80rem;
- }
-
- 90% {
-  width: 90rem;
- }
-
- 10% {
-  width: 100rem;
- }
+@keyframes developmenButtonCssAnimation {
+  10% {
+    transform: rotate(20deg);
+  }
+  20% {
+    transform: rotate(40deg);
+  }
+  30% {
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: rotate(00deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
 }
 
