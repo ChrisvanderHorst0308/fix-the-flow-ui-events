@@ -10,7 +10,17 @@
 }
 * {
   box-sizing: border-box;
+
+
+
 }
+
+html {
+  display: block;
+}
+
+
+
 body {
   margin: 2rem;
   padding: 0;

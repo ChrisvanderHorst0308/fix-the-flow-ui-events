@@ -4,7 +4,7 @@ let beating = document.querySelector('a:nth-of-type(2)')
 let widthAnimation = document.querySelector('a:nth-of-type(3)')
 let swingAnimation = document.querySelector('a:nth-of-type(4)')
 
-
+  
 
 interaction.addEventListener('click', jumpHandler)
 interaction.addEventListener('animationend', jumpHandler)
