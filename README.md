@@ -5,3 +5,13 @@
 
 *** 
 
+## Beschrijving
+
+In deze deeltaak heb ik 10 verschillende UI-events gemaakt. 
+
+***
+
+## Experimenteren 
+
+Voor de verschillende events ben ik gaan experimenteren met divers 'user-input' princiepes. 
+Zoals klikken, dubbel klikken , hoveren etc.
