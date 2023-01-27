@@ -1,17 +1,17 @@
-> _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+### fix-the-flow-ui-events
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="1440" alt="Screenshot 2023-01-27 at 13 22 10" src="https://user-images.githubusercontent.com/112861116/215085990-4c7fb482-c503-4b5c-9321-24693fdde17c.png">
+
+
+*** 
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
 
-## Experimenten
-<!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
-<!-- Voeg een mooie poster visual toe 📸 per experiment -->
+In deze deeltaak heb ik 10 verschillende UI-events gemaakt. 
 
+***
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+## Experimenteren 
 
-This work is licensed under [GNU GPLv3](./LICENSE).
+Voor de verschillende events ben ik gaan experimenteren met divers 'user-input' princiepes. 
+Zoals klikken, dubbel klikken , hoveren etc.
