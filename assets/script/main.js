@@ -137,7 +137,7 @@ function backgroundChangerHandler () {
 // =====
 // interface Animation 
 // ======
-let flipAnimation = document.querySelector('a:nth-of-type(10)')
+let flipAnimation = document.querySelector('#interface')
 
 flipAnimation.addEventListener('click' , flipAnimationHandler)
 flipAnimation.addEventListener('animationend' , flipAnimationHandler)
